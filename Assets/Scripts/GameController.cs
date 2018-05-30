@@ -12,6 +12,8 @@ public class GameController : MonoBehaviour {
     public Text YourScoreText;
     public GameObject newBestAlert;
     
+    
+    
 
 
 
@@ -22,13 +24,16 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        
+
+    }
 
     public void GameOver()
     {
         Invoke("ShowOverPanel", 1.0f);
     }
+   
+
     void ShowOverPanel()
     {
         scoreText.gameObject.SetActive(false);
