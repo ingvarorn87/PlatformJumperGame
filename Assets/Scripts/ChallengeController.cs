@@ -10,10 +10,14 @@ public class ChallengeController : MonoBehaviour {
     float counter = 0.0f;
     public Transform challengesSpawnPoint;
     bool isGameOver = false;
+    GameController myGameController;
+
+
 	// Use this for initialization
 	void Start () {
         GenerateRandomChallenge();
-	}
+        myGameController = GameObject.FindObjectOfType<GameController>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -70,5 +74,20 @@ public class ChallengeController : MonoBehaviour {
     {
         isGameOver = true;
         transform.GetComponent<GameController>().GameOver();
+    }
+    public void EasyDifficulty()
+    {
+        scrollSpeed = 5.0f;
+        myGameController.Restart();
+    }
+    public void MediumDifficulty()
+    {
+        scrollSpeed = 7.0f;
+        myGameController.Restart();
+    }
+    public void HardDifficulty()
+    {
+        scrollSpeed = 9.0f;
+        myGameController.Restart();
     }
 }
