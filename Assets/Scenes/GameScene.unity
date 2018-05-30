@@ -1221,6 +1221,7 @@ MonoBehaviour:
   - {fileID: 1402035858710202, guid: 74a2eba663d5fa946a338afca0b48531, type: 2}
   - {fileID: 1141903625459322, guid: fd9c83738367eef4384bdeaf638e462c, type: 2}
   - {fileID: 1396350663242510, guid: 5d321501c1df96944aad2dc40e1a3d34, type: 2}
+  - {fileID: 1505226360202258, guid: f33640543a64f2745aa19152fd03cc59, type: 2}
   frequency: 0.5
   challengesSpawnPoint: {fileID: 2126792715}
 --- !u!4 &932940645
@@ -2021,7 +2022,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2126792714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.95, y: -3, z: 0}
+  m_LocalPosition: {x: 30, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
