@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour {
     public Text BestScoreText;
     public Text YourScoreText;
     public GameObject newBestAlert;
+    
 
 
 
