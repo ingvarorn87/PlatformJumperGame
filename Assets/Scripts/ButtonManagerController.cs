@@ -19,4 +19,13 @@ public class ButtonManagerController : MonoBehaviour {
     {
         SceneManager.LoadScene(loadGameLevel);
     }
+
+    public void HighScoreBtn(int loadGameLevel)
+    {
+        SceneManager.LoadScene(loadGameLevel);
+    }
+    public void InstuctionsBtn(int loadGameLevel)
+    {
+        SceneManager.LoadScene(loadGameLevel);
+    }
 }
